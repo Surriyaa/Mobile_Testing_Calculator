@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobileTesting(failed)">
+    <classes>
+      <class name="com.mobiletesting.RealDeviceAutomation">
+        <methods>
+          <include name="setUp"/>
+          <include name="subraction"/>
+        </methods>
+      </class> <!-- com.mobiletesting.RealDeviceAutomation -->
+    </classes>
+  </test> <!-- MobileTesting(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
